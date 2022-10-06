@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #superstitious_numbers
 x=1
-while (( $x < 21 ))
+while (( $x -le 20 ))
 do 
 	echo "$x"
 	case $x in
