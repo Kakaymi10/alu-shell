@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #ou must use the until loop
-x=o
-until (( $x == 10 ))
+x=0
+until (( x == 10 ))
 do
 	echo 'Best School'
 	x=$(( x+1 ))
