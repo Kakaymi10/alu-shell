@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+#for ls
 f="$(ls)"
 for f in $f;
 do
