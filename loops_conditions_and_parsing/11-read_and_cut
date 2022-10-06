@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 # Read and cut 
 
-FILE="/etc/passwd"
+while IFS= read -r line
 
-while read LINE
 do
-    echo "$LINE" | cut -d ":" -f1,3,6
-done < "$FILE"
+
+	    echo "$line" | cut -f 1,3,6 -d ':'
+
+    done < "/etc/passwd"
