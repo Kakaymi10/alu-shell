@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # show your bash ID made easy
-pstree | grep "bash"
+pgrep -l bash
