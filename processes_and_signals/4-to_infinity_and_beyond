@@ -2,8 +2,8 @@
 # To infinity and beyond
 # User needs to press Ctrl-C to stop
 
-while true
-do
+while :; do
 	echo 'To infinty and beyond'
 	sleep 2
+
 done
