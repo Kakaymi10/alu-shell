@@ -4,6 +4,6 @@
 L=0
 while [ $L ]
 do
-	echo 'To infinty and beyond'
+	echo 'To infinty and beyond indefinitely'
 	sleep 2
 done
