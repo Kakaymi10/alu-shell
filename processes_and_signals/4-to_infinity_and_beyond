@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# To infinty and beyond
+# To infinity and beyond
 
-L=0
-while [ $L ]
+while true
 do
-	echo 'To infinty and beyond indefinitely'
+	echo 'To infinty and beyond'
 	sleep 2
 done
