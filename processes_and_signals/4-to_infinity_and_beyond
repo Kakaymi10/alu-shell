@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 # To infinity and beyond
-# User needs to press Ctrl-C to stop
-
 while :; do
 	echo "To infinty and beyond"
 	sleep 2
